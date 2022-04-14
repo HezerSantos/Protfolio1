@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FAQ</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="about_us.html">
+	<link rel="stylesheet" type="text/css" href="patients.html">
+	<link rel="stylesheet" type="text/css" href="contact.html">
+	<link rel="stylesheet" type="text/css" href="faq.html">
+	<script src = "https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+</head>
+<body class="test">
+	<div>
+	<!-- Nav Bar -->
+	<header>
+	<div class="nav_container">
+		<a href="index.html">
+			<img src="logo.svg" class="logo" id="nav_logo">
+		</a>
+		<ul class="nav_items">
+			<li class="nav_li">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="nav_li">
+				<a href="about_us.html">About Us</a>
+			</li>
+			<li class="nav_li">
+				<a href="patients.html">Patients</a>
+			</li>
+			<li class="nav_li">
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</div>
+	</header>
+
+	<div class="placeholder11"></div>
+
+	<!-- FAQ -->
+	<div class="faqcontainer">
+		<p class="fh1">FAQ</p>
+		<p class="faqtxt" id="faqtxt1">Can I schedule an appointment online?</p>
+		<span id="f1">
+			<p>Yes, for existing patients with a login to the pet portal, we offer online 
+			scheduling.</p>
+			<p> When you choose an appointment time, one of our Client Care Representatives will 
+			call</p> 
+			<p>you back to confirm your appointment time. If you are a new patient or do not yet 
+			have</p> 
+			<p>a pet portal login, please call or email us to schedule.</p>
+			<p>LINK: Make an Appointment</p>
+		</span>
+		<p class="faqtxt" id="faqtxt2">What is your patient arrival policy?</p>
+		<span id="f2">
+			<p>We ask our clients to arrive at least 15 minutes before their appointment time to get</p>
+			<p>checked-in. If you are running late please call us to let us know. If you do not arrive by</p>
+			<p>your appointment time you may be asked to reschedule your appointment, or you</p>
+			<p>have to wait to be worked-into the schedule.</p>
+		</span>
+		<p class="faqtxt" id="faqtxt3">Why does my puppy need to be vaccinated so many times?</p>
+		<span id="f3">
+			<p>The immune system of a puppy and kitten develop slowly over time. This starts when </p>
+			<p>they are 6 weeks and is usually complete at 16 weeks. During the developmental</p>
+			<p>stages we need to protect your pet by vaccinating every four weeks so that they will</p>
+			<p>build immunity to the common diseases that they are susceptible to. This allows their</p>
+			<p>immune system a chance to develop “memory” so that if they are exposed to one of</p>
+			<p>these diseases their immune system will be prepared. We recommend keeping your</p>
+			<p>puppy close to home by avoiding taking him/her out in public, to pet stores or letting</p>
+			<p>them mingle with other dogs until one week after their last set of vaccinations are given.</p>
+		</span>
+		<p class="faqtxt" id="faqtxt4">Can my pet take human medicine?</p>
+		<span id="f4">
+			<p>While it is true that pets can take some human medications, you must BE VERY</p>
+			<p>CAREFUL! Some human medications are toxic to pets and may even kill them. For</p>
+			<p>example, just one Tylenol tablet will kill a cat. It is always advised to consult with one of</p>
+			<p>our veterinarians before you give your pet any medication to be sure it is safe to give</p>
+			<p>and that you give an accurate dosage.</p>
+		</span>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="ft">
+			<div class="ft1">
+				<img src="logo.svg" style="width: 158px; height: 57px;">
+				<div class="placeholder3"></div>
+				<div class="tf1">
+					<a href="https://twitter.com">
+						<img src="twitter.png" class="tf1img">
+					</a>
+					<a href="https://instagram.com">
+						<img src="insta.png" class="tf1img">
+					</a>
+					<a href="https://tiktok.com">
+						<img src="tiktok.png" class="tf1img">
+					</a>
+				</div>
+				<div class="placeholder3"></div>
+				<a href="faq.html" class="tf1txt">FAQ</a>
+			</div>
+			<div class="ft2">
+				<span class="fttxt">
+					<p>Bluff city pet hospital</p>
+					<p>1234 S. Main</p>
+					<p>Memphis, TN 38103</p>
+				</span>
+				<div class="placeholder4"></div>
+				<span class="fttxt">
+					<p>bluffcity@petshop.com</p>
+					<p>phone (901) 456-7890</p>
+					<p>Monday-Friday 7:30am - 5:30pm</p>
+					<p>Saturday 7:30am - 12:00pm</p>
+				</span>
+			</div>
+		</div>
+		<p class="copyright">© Copyright 2022 Bluff City Pet Hospital. All rights reserved.</p>
+	</div>
+
+	<script>
+		$("#faqtxt1").click(function(){
+			$("#f1").slideToggle();
+		})
+		$("#faqtxt2").click(function(){
+			$("#f2").slideToggle();
+		})
+		$("#faqtxt3").click(function(){
+			$("#f3").slideToggle();
+		})
+		$("#faqtxt4").click(function(){
+			$("#f4").slideToggle();
+		})
+
+	</script>
+	</div>
+</body>
+</html>
